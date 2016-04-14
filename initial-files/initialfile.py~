@@ -11,7 +11,7 @@ from datetime import date
 import time
  
 
-#comments added
+#database connections
 db=MySQLdb.connect("localhost","root","iamthriving","Mydatabase")
 curs=db.cursor()
 
